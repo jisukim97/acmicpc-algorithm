@@ -8,9 +8,11 @@ int main() {
 	int a, sum=0;
 	cin >> a;
 
-	for(int i=1; i<=a;i++)
-		sum+=i;
+	for (int i = 1; i <= a; i++) {
+		cout << i;
+		if (i == a) break;
+		cout << "\n";
+	}
 
-	cout << sum;
 	return 0;
 }
